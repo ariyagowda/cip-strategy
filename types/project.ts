@@ -1,0 +1,32 @@
+export interface Project {
+  id: number;
+  name: string;
+  description: string;
+  startYear: string;
+  fit: "High" | "Medium" | "Low";
+  category: string;
+  subcategory: string;
+  department: string;
+  location: string;
+  projectManager: string;
+  projectNumber: string;
+  fullDescription: string;
+  fundingStrategy: string;
+  programmedFunding: string;
+  meansOfFinancing: string;
+  imageUrl?: string;
+  projectValue: number;
+  region: string;
+  type: string;
+  priority?: "High" | "Medium" | "Low";
+  status?: string;
+  owner?: string;
+  relevantExperience?: string;
+  similarProjects?: string;
+  competitorAnalysis?: string;
+  keyStakeholders?: string;
+  comments?: string;
+  strategyPlan?: string;
+  swot?: string;
+  kpis?: string;
+} 
